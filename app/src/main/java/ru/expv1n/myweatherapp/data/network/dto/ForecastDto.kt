@@ -1,4 +1,4 @@
-package ru.expv1n.myweatherapp.data.dto
+package ru.expv1n.myweatherapp.data.network.dto
 
 import com.google.gson.annotations.SerializedName
 

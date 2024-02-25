@@ -1,4 +1,4 @@
-package ru.expv1n.myweatherapp.data.api
+package ru.expv1n.myweatherapp.data.network.api
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

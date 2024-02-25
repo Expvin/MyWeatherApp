@@ -7,7 +7,7 @@ import androidx.activity.compose.setContent
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import ru.expv1n.myweatherapp.data.api.ApiFactory
+import ru.expv1n.myweatherapp.data.network.api.ApiFactory
 import ru.expv1n.myweatherapp.presentation.ui.theme.MyWeatherAppTheme
 
 class MainActivity : ComponentActivity() {

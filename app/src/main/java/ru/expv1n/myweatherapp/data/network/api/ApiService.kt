@@ -1,10 +1,10 @@
-package ru.expv1n.myweatherapp.data.api
+package ru.expv1n.myweatherapp.data.network.api
 
 import retrofit2.http.GET
 import retrofit2.http.Query
-import ru.expv1n.myweatherapp.data.dto.CityDto
-import ru.expv1n.myweatherapp.data.dto.WeatherCurrentDto
-import ru.expv1n.myweatherapp.data.dto.WeatherForecastDto
+import ru.expv1n.myweatherapp.data.network.dto.CityDto
+import ru.expv1n.myweatherapp.data.network.dto.WeatherCurrentDto
+import ru.expv1n.myweatherapp.data.network.dto.WeatherForecastDto
 
 interface ApiService {
 
