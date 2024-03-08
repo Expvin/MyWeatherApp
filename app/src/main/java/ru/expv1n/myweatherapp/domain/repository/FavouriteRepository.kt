@@ -5,7 +5,7 @@ import ru.expv1n.myweatherapp.domain.entity.City
 
 interface FavouriteRepository {
 
-  val favouriteCity: Flow<City>
+  val favouriteCity: Flow<List<City>>
 
   fun observeIsFavourite(cityId: Int): Flow<Boolean>
 

@@ -11,10 +11,10 @@ import ru.expv1n.myweatherapp.data.local.model.CityDbModel
 interface FavouriteCitiesDao {
 
   @Query("SELECT * FROM favourite_cities")
-  suspend fun getFavouriteCities(): Flow<List<CityDbModel>>
+  fun getFavouriteCities(): Flow<List<CityDbModel>>
 
   @Query("SELECT EXISTS (SELECT * FROM favourite_cities WHERE id=:cityId LIMIT 1)")
-  suspend fun observeFavourite(cityId: Int): Flow<Boolean>
+  fun observeFavourite(cityId: Int): Flow<Boolean>
 
   @Insert(onConflict = OnConflictStrategy.REPLACE)
   suspend fun addToFavourite(city: CityDbModel)
